@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'polls/index.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">categories</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a href="#"><img src="{% static 'polls/img/in_logo.png' %}" alt="IN"></a>
+    <h1>Vote for Everything</h1>
+    
+    {% block content %} 
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 93px;
+    width: 100%;
+    position: fixed;
+}
+
+li {
+    list-style-type: none;
+    text-align: right;
+    margin: 33px 10px 0;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    margin: 93px 0 0;
+}
